@@ -2,7 +2,6 @@ import React, {FC} from 'react';
 import * as FlagWideSVGs from './assets/4x3';
 import * as FlagSquareSVGs from './assets/1x1';
 import {StyleProp, View, ViewStyle, StyleSheet} from 'react-native';
-
 interface FlagIconPropsBase {
   size?: number;
   containerStyles?: StyleProp<ViewStyle> | undefined;
@@ -15,7 +14,7 @@ interface FlagIconPropsSq extends FlagIconPropsBase {
 
 interface FlagIconPropsWide extends FlagIconPropsBase {
   name: keyof typeof FlagWideSVGs;
-  square: false;
+  square?: false | undefined;
 }
 
 export type FlagIconProps = FlagIconPropsSq | FlagIconPropsWide;
