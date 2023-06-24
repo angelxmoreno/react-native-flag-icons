@@ -1,7 +1,9 @@
 {
   "name": "react-native-flag-icons",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "description": "React Native Flag Icons",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:angelxmoreno/react-native-flag-icons.git",
   "author": "Angel S. Moreno <angelxmoreno@gmail.com>",
   "license": "MIT",
